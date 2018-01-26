@@ -71,15 +71,13 @@ Xamarin apps built with the Intune App SDK Xamarin Component can now receive Int
 
 2. Read the [license terms](https://components.xamarin.com/license/microsoft.intune.mam) for the Microsoft Intune MAM Xamarin Component.
 
-3.	Download the Intune App SDK Xamarin Component folder from [GitHub](https://github.com/msintuneappsdk/intune-app-sdk-xamarin) or [Nuget.org](https://www.nuget.org/profiles/msintuneappsdk) and extract it. Both files downloaded from step 1 and step 3 should be in the same directory level.
+3.	Download the Intune App SDK Xamarin Component folder from [GitHub](https://github.com/msintuneappsdk/intune-app-sdk-xamarin) and extract it. Both files downloaded from step 1 and step 3 should be in the same directory level.
 
 4.	In the command line as an administrator, run `Xamarin.Component.exe install <.xam> file`.
 
 5.	In Visual Studio, right-click **components** in your previously created Xamarin project.
 
 6.	Select **Edit Components** and add the Intune App SDK component you’ve downloaded locally to your computer.
-
-
 
 ## Enabling Intune app protection polices in your iOS mobile app
 1.	Follow the general steps required for integrating the Intune App SDK into an iOS mobile app. You can begin with step 3 of the integration instructions from the [Intune App SDK for iOS Developer Guide](app-sdk-ios.md#build-the-sdk-into-your-mobile-app).
