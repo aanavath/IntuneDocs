@@ -267,6 +267,19 @@ Use the following information to learn about the allowed formats and wildcards t
 
   - `http://www.contoso.com: /*`
 
+## Opening links within the Intune Managed Browser vs. Microsoft Edge
+Both the Intune Managed Browser and Microsoft Edge are now considered policy managed browsers/protected browsers. Today, existing app protection policies result in web links from Intune managed apps to open in a specific browser depending on your scenario and platform. 
+
+On Android:
+* Managed Browser if both MB and Edge are on the device, unless app config setting “com.microsoft.intune.useEdge” is set to “true” for all Intune managed apps with a policy managed browser required. 
+* Microsoft Edge if only Microsoft Edge is on the device and is targeted with policy.
+* Managed Browser if only Managed Browser is on the device and is targeted with policy.
+
+On iOS, for apps that have integrated the Intune SDK v. 9.0.9+:
+* Managed Browser if both MB and Edge are on the device, unless app config setting “com.microsoft.intune.useEdge” is set to “true” for all Intune managed apps with a policy managed browser required **or** Microsoft Edge if Microsoft Edge is installed and has recieved policy.
+* Microsoft Edge if only Microsoft Edge is on the device, is targeted with, and has recieved policy.
+* Managed Browser if only Managed Browser is on the device, is targeted with, and has recieved policy.
+
 ## How to access to managed app logs using the Managed Browser on iOS
 
 End users with the managed Browser installed on their iOS device can view the management status of all Microsoft published apps. They can send logs for troubleshooting their managed iOS apps.
@@ -277,7 +290,7 @@ End users with the managed Browser installed on their iOS device can view the ma
 4. Open the managed **Browser**. Click **View Intune App Status** to review individual application policy settings.
 5. Press **Get Started** and **Share Logs** or **Send Logs to Microsoft** to send the troubleshooting logs to your IT administrator or Microsoft.
 
-You can also open the Browser in troubleshooting mode from within the app.
+You can also open the Managed Browser in troubleshooting mode from within the app.
 
 1. Open the Managed Browser.
 2. Type `about:intunehelp` in the address box.
