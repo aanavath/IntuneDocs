@@ -46,9 +46,6 @@ New accounts can be created with and without pre-generated data. To create a new
 > [!NOTE]
 > If your app is not listed in the Azure portal, you can target it with a policy by selecting the **more apps** option and providing the package name in the text box.
 
-> [!IMPORTANT]
-> For an app configuration policy to apply, the enrolling user must be targeted by an [Intune app protection policy](app-protection-policy.md).
-
 ## Test Cases
 
 The following test cases provide configuration and confirmation steps. Use this guidance to help troubleshoot Intune-managed Android app issues.
