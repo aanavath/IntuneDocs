@@ -230,4 +230,4 @@ For app protection without device enrollment, the user is _**not**_ required to 
 Sample applications highlighting MAM functionality in Xamarin.Android and Xamarin.Forms apps are available on [GitHub](https://github.com/msintuneappsdk/Taskr-Sample-Intune-Xamarin-Android-Apps).
 
 ## Support
-If your organization is an existing Intune customer, please work with your Microsoft support representative to open a support ticket and create an issue [on the GitHub issues page](https://github.com/msintuneappsdk/intune-app-sdk-xamarin/issues). We will help as soon as we can. 
+If you are an app developer working with the Intune SDK, create an issue [on the GitHub issues page](https://github.com/msintuneappsdk/intune-app-sdk-xamarin/issues) with as much detail as possible. We will help as soon as we can. 
